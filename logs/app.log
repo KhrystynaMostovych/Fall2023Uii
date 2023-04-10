@@ -1,0 +1,22 @@
+[INFO] 12:25:00.161 - Running loop 0 -{c}
+[INFO] 12:25:00.167 - Running loop 1 -{c}
+[INFO] 12:25:00.167 - Running loop 2 -{c}
+[INFO] 12:25:00.167 - Running loop 3 -{c}
+[INFO] 12:25:00.167 - Running loop 4 -{c}
+[INFO] 12:25:00.168 - Receive request for calculating tax  -{c}
+[DEBUG] 12:25:00.176 - Personal name salary 123456.0true -{c}
+[ERROR] 12:25:00.177 - Salary can't be negative -{c}
+[INFO] 12:25:00.177 - Receive request for calculating tax  -{c}
+[DEBUG] 12:25:00.177 - Personal name salary -123.0true -{c}
+[DEBUG] 12:25:00.178 - tax:-12.3 -{c}
+[INFO] 14:34:48.819 - Running loop 0 -{c}
+[INFO] 14:34:48.825 - Running loop 1 -{c}
+[INFO] 14:34:48.825 - Running loop 2 -{c}
+[INFO] 14:34:48.825 - Running loop 3 -{c}
+[INFO] 14:34:48.825 - Running loop 4 -{c}
+[INFO] 14:34:48.825 - Receive request for calculating tax  -{c}
+[DEBUG] 14:34:48.833 - Personal name salary 123456.0true -{c}
+[ERROR] 14:34:48.833 - Salary can't be negative -{c}
+[INFO] 14:34:48.834 - Receive request for calculating tax  -{c}
+[DEBUG] 14:34:48.834 - Personal name salary -123.0true -{c}
+[DEBUG] 14:34:48.835 - tax:-12.3 -{c}

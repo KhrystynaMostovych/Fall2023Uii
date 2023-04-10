@@ -1,0 +1,25 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!-- Appenders(message write types)-->
+<Configuration status="DEBUG">
+<Appenders>
+    <Console name="ABC" target="SYSTEM_OUT">
+    <!-- set format-->
+<PatternLayout pattern ="[%level] %d{HH:mm:ss.SSS} - %msg -{c}%n"/>
+
+    </Console>
+    <File name="DevXSchool" fileName="logs/app.log">
+        <PatternLayout pattern ="[%level] %d{HH:mm:ss.SSS} - %msg -{c}%n"/>
+
+    </File>
+</Appenders>>
+<!-- define loggers here-->
+
+    <Loggers>
+        <Root level="DEBUG">
+            <AppenderRef ref="ABC"/>
+                <AppenderRef ref="DevXSchool"></AppenderRef>
+        </Root>
+
+
+    </Loggers>
+</Configuration>
